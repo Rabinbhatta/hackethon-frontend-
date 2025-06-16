@@ -1,0 +1,312 @@
+/* Investment Dashboard Styles */
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #f8fafc;
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  margin-bottom: 32px;
+}
+
+.dashboard-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0 0 8px 0;
+}
+
+.dashboard-subtitle {
+  font-size: 16px;
+  color: #64748b;
+  margin: 0;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.metric-card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e2e8f0;
+}
+
+.metric-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.metric-label {
+  font-size: 14px;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.metric-icon {
+  width: 20px;
+  height: 20px;
+  color: #94a3b8;
+}
+
+.metric-value {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0 0 8px 0;
+}
+
+.metric-change {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.metric-change.positive {
+  color: #059669;
+}
+
+.tabs-container {
+  margin-bottom: 32px;
+}
+
+.tabs-list {
+  display: flex;
+  gap: 0;
+  background: #f1f5f9;
+  border-radius: 8px;
+  padding: 4px;
+  width: fit-content;
+}
+
+.tab-button {
+  padding: 8px 16px;
+  border: none;
+  background: transparent;
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tab-button.active {
+  background: white;
+  color: #1e293b;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.content-card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e2e8f0;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+}
+
+.card-subtitle {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0 0 24px 0;
+}
+
+.view-all-link {
+  font-size: 14px;
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.view-all-link:hover {
+  text-decoration: underline;
+}
+
+.holdings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.holding-item {
+  display: flex;
+  align-items: center;
+  justify-content: between;
+  padding: 12px 0;
+}
+
+.holding-info {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 12px;
+}
+
+.holding-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: white;
+  font-size: 14px;
+}
+
+.holding-icon.tech {
+  background: #3b82f6;
+}
+.holding-icon.energy {
+  background: #10b981;
+}
+.holding-icon.health {
+  background: #8b5cf6;
+}
+.holding-icon.finance {
+  background: #06b6d4;
+}
+
+.holding-details h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0 0 4px 0;
+}
+
+.holding-details p {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0;
+}
+
+.holding-performance {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.performance-badge {
+  background: #1e293b;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.performance-badge.positive {
+  background: #059669;
+}
+
+.sector-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sector-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sector-info {
+  flex: 1;
+}
+
+.sector-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1e293b;
+  margin: 0 0 8px 0;
+}
+
+.sector-bar {
+  width: 100%;
+  height: 6px;
+  background: #f1f5f9;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.sector-progress {
+  height: 100%;
+  background: #1e293b;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.sector-progress.ai {
+  background: #1e293b;
+}
+.sector-progress.fintech {
+  background: #3b82f6;
+}
+.sector-progress.health {
+  background: #8b5cf6;
+}
+.sector-progress.clean {
+  background: #10b981;
+}
+.sector-progress.other {
+  background: #64748b;
+}
+
+.sector-amount {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-left: 16px;
+}
+
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 16px;
+  }
+
+  .metrics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .metric-value {
+    font-size: 24px;
+  }
+
+  .dashboard-title {
+    font-size: 24px;
+  }
+}

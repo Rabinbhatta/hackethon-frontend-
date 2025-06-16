@@ -1,0 +1,363 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.background {
+  display: flex;
+  background-image: url('../../../../assets/sl_122221_47450_06.jpg');
+  background-size: cover;
+}
+
+.registration-form {
+  background: white;
+  padding: 30px;
+  max-width: 1000px;
+  margin: 30px auto;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.registration-form h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 30px;
+}
+
+
+input{
+  margin-bottom: 20px;
+  width: 296px !important;
+}
+
+select{
+  width: 316px !important;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 290px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="file"],
+input[type="url"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+.gender-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.next-btn {
+  width: 120px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.login-link {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.registration-form h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.registration-form h2 {
+  color: #444;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: small;
+}
+
+.form-group .subtext {
+  font-size: 0.8em;
+  color: #666;
+  margin: 0 0 5px 0;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="password"],
+.form-group input[type="number"],
+.form-group input[type="url"],
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.gender-options {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.gender-options label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: normal;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+  display: block;
+}
+
+
+.next-btn:hover {
+  background-color: #3388ff;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-link a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+
+
+@media (max-width: 1024px) {
+  .form-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 100% !important;
+  }
+
+  .next-btn {
+    align-self: center;
+    width: 100%;
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .registration-form {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .form-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 100% !important;
+  }
+
+  .gender-options {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .next-btn {
+    width: 100%;
+    align-self: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .registration-form h2 {
+    font-size: 20px;
+  }
+
+  .next-btn {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .login-link {
+    font-size: 14px;
+  }
+}
+
+
+
+
+Background container
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+  background-image: url('../../../../assets/sl_122221_47450_06.jpg');
+  background-size: cover;
+  padding: 20px;
+}
+
+/* Form container */
+.registration-form {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  max-width: 1000px;
+  width: 100%;
+}
+
+/* Title */
+.registration-form h2 {
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Sector button group */
+.sector-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Button group container */
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 550px;
+  margin-top: 10px;
+}
+
+
+/* Sector button */
+.sector-btn {
+  width: 160px;
+  padding: 10px 15px;
+  border: 2px solid #999;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+/* When selected */
+.sector-btn.selected {
+  background-color: #e6f0ff;
+  color: #007bff;
+  border-color: #007bff;
+}
+
+/* Hover effect */
+.sector-btn:hover {
+  background-color: #f2f2f2;
+}
+
+/* Error message */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* Navigation buttons */
+.next-btn,
+.next-btn1 {
+  width: 140px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.next-btn1 {
+  background-color: #F0A202;
+}
+
+.next-btn:hover,
+.next-btn1:hover {
+  opacity: 0.9;
+}
+
+/* Login link */
+.login-link {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .button-group {
+    gap: 20px; /* Reduce the gap on smaller screens */
+  }
+}

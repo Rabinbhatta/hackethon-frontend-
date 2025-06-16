@@ -1,0 +1,68 @@
+.register-container {
+  background-image: url(../../../../assets/sl_122221_47450_06.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  font-family: sans-serif;
+}
+
+.register-container h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+.register-container p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.register-icon-samyak{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.container-samyak {
+  display: flex;
+  gap: 20px;
+}
+
+.register-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-option {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  border: 2px solid #d2d2d2;
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #fff;
+  width: 300px;
+}
+
+.register-option:hover {
+  border-color: #007bff;
+}
+
+.register-option ul{
+    margin-bottom: 20px;
+}
+
+.register-option ul li {
+  color: #3f3f3f;
+}

@@ -1,0 +1,54 @@
+
+
+.hackup-about-container {
+ 
+  padding: 4rem 2rem;
+}
+
+.hackup-about-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.hackup-about-image {
+  width: 500px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  object-fit: cover;
+}
+
+.hackup-about-content {
+  flex: 1;
+}
+
+.hackup-about-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.hackup-about-text {
+  font-size: 1.05rem;
+  color: #374151;
+  line-height: 1.7;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.hackup-about-button {
+  display: inline-block;
+  background-color: #3185FC  ;
+  color: white;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+

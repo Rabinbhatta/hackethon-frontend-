@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 6rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  font-family: sans-serif;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo{
+    width: 240px;
+    height: 40px;
+}
+
+.nav-logo p {
+  color: #171717;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+  color: #626262;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.nav-menu li a:hover {
+  color: #ff4141;
+}
+
+.nav-register{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-register button {
+  width: 120px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #7a7a7a;
+  border-radius: 10px;
+  color: #515151;
+  font-size: 1rem;
+  font-weight: 500;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-register button:hover {
+  background: #f3f3f3;
+}
+
+.nav-register li {
+  list-style: none;
+}
+
+.nav-register a {
+  text-decoration: none;
+  color: #515151;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-register a:hover {
+  color: #ff4141;
+}
+
+.nav-register-button{
+    background-color: #3185FC !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .nav-menu {
+    gap: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .nav-register {
+    gap: 1rem;
+  }
+  
+  .nav-register button {
+    width: 100px;
+    height: 35px;
+    font-size: 0.9rem;
+  }
+}

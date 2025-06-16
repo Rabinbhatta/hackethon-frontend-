@@ -1,0 +1,88 @@
+.startup-detail {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  font-family: sans-serif;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.back-link {
+  text-decoration: none;
+  color: #555;
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.detail-header {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.startup-icon {
+  font-size: 3rem;
+}
+
+.startup-name {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.detail-tags {
+  margin: 0.5rem 0;
+}
+
+.badge {
+  background: #eee;
+  padding: 0.3rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  margin-right: 0.5rem;
+}
+
+.location-info {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.funding-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0 1rem;
+  font-size: 1rem;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.progress-bar-container {
+  height: 8px;
+  width: 100%;
+  background-color: #eee;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #000;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.about-section h2 {
+  margin-bottom: 0.5rem;
+}
+
+.about-section p {
+  line-height: 1.5;
+}
