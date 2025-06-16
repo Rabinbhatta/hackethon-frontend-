@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "../pages/css/register.css";
+import "./css/register.css";
 import investorpic from "../../assets/ivestor.PNG";
 import pitcherpic from "../../assets/startup.png";
 
