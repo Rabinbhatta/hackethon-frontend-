@@ -1,4 +1,3 @@
-
 #hero {
   text-align: center;
   padding: 100px 20px;
@@ -24,7 +23,7 @@
 }
 
 #hero .highlight {
-  color: rgb(37 99 235 / var(--tw-text-opacity, 1));; 
+  color: rgb(37 99 235 / var(--tw-text-opacity, 1));
 }
 
 #hero p {
@@ -51,9 +50,7 @@
   font-size: 16px;
   cursor: pointer;
   position: relative;
-
 }
-
 
 #herobtn1:hover {
   background-color: #1f2937;
@@ -90,13 +87,13 @@
 .stat-value {
   font-size: 32px;
   font-weight: bold;
-  color: #2563eb; 
+  color: #2563eb;
   margin-bottom: 8px;
 }
 
 .stat-label {
   font-size: 16px;
-  color: #4b5563; 
+  color: #4b5563;
 }
 
 .opportunities-section {
@@ -130,7 +127,7 @@
   border-radius: 12px;
   padding: 20px;
   width: 320px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
   text-align: left;
   position: relative;
 }
@@ -165,7 +162,7 @@
   border-radius: 9999px;
   font-weight: 500;
   width: 100px;
- text-align: center;
+  text-align: center;
 }
 
 .investment-star {
@@ -213,9 +210,7 @@
   cursor: pointer;
 }
 
-
 .investment-feature-section {
-
   padding: 40px 20px;
   text-align: center;
 }
@@ -278,7 +273,7 @@
 }
 
 .SI-section {
-  background-color: #2563eb; 
+  background-color: #2563eb;
   text-align: center;
   padding: 60px 20px;
   color: white;
@@ -314,4 +309,16 @@
   cursor: pointer;
 }
 
+.history-message {
+  padding: 6px 10px;
+  margin-bottom: 6px;
+  background-color: #fff;
+  border-radius: 6px;
+  font-size: 14px;
+  box-shadow: 0 1px 2px #0000001a;
+  height: auto;
+}
 
+.history-message:hover {
+  cursor: pointer;
+}

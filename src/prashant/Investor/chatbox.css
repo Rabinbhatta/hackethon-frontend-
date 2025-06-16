@@ -6,7 +6,6 @@
   overflow: hidden;
   font-family: Arial, sans-serif;
   margin: 50px;
-
 }
 
 .chat-history {
@@ -29,12 +28,12 @@
   background-color: #fff;
   border-radius: 6px;
   font-size: 14px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-  height
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  height: auto;
 }
 
-.history-message::hover{
-  cursor:pointer;
+.history-message:hover {
+  cursor: pointer;
 }
 
 .chat-container {
